@@ -70,16 +70,22 @@ body {
     overflow:hidden;
 }
 .button-design{
-    background:    #0000ff;
-    border:        5px solid #6fa8dc;
-    border-radius: 26px;
-    box-shadow:    3px 3px #444444;
-    width:         300px;
-    height:        70px;
-    color:         #ffffff;
-    display:       inline-block;
-    font:          normal bold 25px/70px "Ubuntu", sans-serif;
-    text-align:    center;
+    text-align:         center;
+    display:            flex;
+    flex-direction:     column;
+    align-items:        center;
+    justify-content:    center;
+    background:       #0000ff;
+    border:             5px solid #6fa8dc;
+    border-radius:      26px;
+    box-shadow:         3px 3px #444444;
+    width:              300px;
+    height:             70px;
+    color:            #ffffff;
+    display:            inline-block;
+    font:               normal bold 25px/70px "Ubuntu", sans-serif;
+    text-align:         center;
+    margin:             10px;
 }
 
 
@@ -92,17 +98,20 @@ h1 {
 </style>
     
 <div class="box">
-    <h1>schule.ryufps.de</h1>
-    <h1>Navigation Page</h1>
+    <h1>
+        schule.ryufps.de <br>
+        Navigation Page
+    </h1>
 
 
     <button class="button-design">Klauland</button>
 
     <form method="post">
         <input type="hidden" name="logout" value="1"/>
-        <input type="submit" class="button-design" name="logout"/>
+        <input type="submit" class="button-design" name="logout" value="logout"/>
     </form>
 </div>
 
 </body>
 </html>
+
