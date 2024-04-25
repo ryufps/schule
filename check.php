@@ -2,7 +2,8 @@
 
 $users = [
     "ryu" => "Na1985-Ju",
-    "Lehrer" => "sicherer_als_edocs_lol"
+    "Lehrer" => "sicherer_als_edocs_lol",
+    "guest"=> "p@ssw0rd"
 ];
 
 session_start();
