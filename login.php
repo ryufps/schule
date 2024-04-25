@@ -18,7 +18,7 @@
 }
 
 body {
-    background-image: url("ELDEN-RING-DLC-TITLE-IMG.avif");
+    background-image: url("6057485.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -33,6 +33,25 @@ body {
     overflow: hidden;
     color: white;
 }
+.box {
+    background-color: #01011a;
+    border: 20px solid black;
+    border-image: url("border.jpg") 40% stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+    overflow:hidden;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 60px;
+    margin: -150 0 40px;
+}
 </style>
     <?php 
     require "check.php";
@@ -40,13 +59,14 @@ body {
         echo "<div>INVALID USER/PASSWORD</div>";
     }
     ?>
-
+    <div class="box">
+        <h1>Login Page</h1>
     <form method="post">
         <input type="text" name="user" required/>
         <input type="password" name="password" required/>
         <input type="submit" value="Login"/>
     </form>
-
+    </div>
 
 
 </body>
