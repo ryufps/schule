@@ -29,10 +29,7 @@
 
 
 
-    <form method="post">
-        <input type="hidden" name="logout" value="1"/>
-        <input type="submit" name="logout"/>
-    </form>
+    
 </head>
 <body>
 
@@ -100,6 +97,11 @@ h1 {
 
 
     <button class="button-design">Klauland</button>
+
+    <form method="post">
+        <input type="hidden" name="logout" value="1"/>
+        <input type="submit" class="button-design" name="logout"/>
+    </form>
 </div>
 
 </body>
