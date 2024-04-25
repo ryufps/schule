@@ -53,14 +53,15 @@ h1 {
     margin: -150 0 40px;
 }
 </style>
-    <?php 
+    
+    <div class="box">
+        <h1>Login Page</h1>
+        <?php 
     require "check.php";
     if(isset($failed)) {
         echo "<div>INVALID USER/PASSWORD</div>";
     }
     ?>
-    <div class="box">
-        <h1>Login Page</h1>
     <form method="post">
         <input type="text" name="user" required/>
         <input type="password" name="password" required/>
