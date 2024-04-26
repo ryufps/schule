@@ -104,7 +104,7 @@ h1 {
     </h1>
 
 
-    <button class="button-design">Klauland</button>
+    <button href="https://klauland.ryufps.de/"class="button-design">Klauland</button>
 
     <form method="post">
         <input type="hidden" name="logout" value="1"/>
